@@ -3,6 +3,7 @@
 A small Python app to simulate Binance futures strategies.
 
 **Requirements:**
+
 - Python 3.8+ (3.10+ recommended)
 - `requirements.txt` lists project dependencies
 
@@ -32,12 +33,14 @@ python main.py
 ```
 
 **Files of interest**
+
 - `main.py` — program entrypoint
 - `config.py` — configuration (API keys, params)
 - `strategy.py` — trading strategy logic
 - `binance_client.py` — Binance API client wrapper
 
 **Notes**
+
 - The app may expect environment-specific settings in `config.py`.
 - If you run into missing dependencies, confirm your active Python interpreter and that the virtualenv is activated.
 
